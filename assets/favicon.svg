@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TMCOMTECH">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4bd8e6"/><stop offset="1" stop-color="#f5b95f"/></linearGradient></defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#10374a" stroke="#4bd8e6" stroke-width="2"/>
+  <path d="M9 22h20v6h-7v16h-6V28H9zm23 0h6l7 10 7-10h3v22h-6V33l-4 6-7-10v15h-6z" fill="url(#g)"/>
+</svg>
