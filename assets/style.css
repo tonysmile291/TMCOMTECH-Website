@@ -80,3 +80,15 @@ body { overflow-x: hidden; }
 @media (max-width: 380px) { .steps { grid-template-columns: 1fr; } .art-tag { font-size: .57rem; } }
 @media (hover: none) { .service-card:hover, .detail-card:hover, .button:hover { transform: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+
+
+/* Legal & client data policy: readable, accessible long-form content */
+.policy-content{max-width:850px;margin:50px auto 0}
+.policy-section{padding:28px 0;border-bottom:1px solid var(--line)}
+.policy-section:first-child{padding-top:0}
+.policy-section:last-child{border-bottom:none}
+.policy-section h2{font-size:clamp(1.4rem,3vw,1.85rem);margin:0 0 15px}
+.policy-section p{font-size:1rem;color:var(--muted);max-width:75ch;margin:0 0 15px}
+.policy-section p:last-child{margin-bottom:0}
+.policy-section strong{color:var(--text)}
+@media(max-width:620px){.policy-content{margin-top:30px}.policy-section{padding:23px 0}}
